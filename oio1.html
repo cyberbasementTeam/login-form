@@ -1,0 +1,130 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mmm</title>
+    <style>
+        body {
+            background-image: url(img1/55.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-image: url(img1/mm.jpg);
+            overflow: hidden;
+        }
+        
+        li a {
+            text-shadow: 3px 3px 6px rgb(0, 0, 0);
+        }
+        
+        li a {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: rgba(222, 222, 220);
+            padding: 10px 16px;
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        li a:hover {
+            background-color: #555;
+            color: white;
+        }
+        
+        div {
+            width: 35%;
+            height: 25%;
+            backdrop-filter: blur(20px);
+            background: transparent;
+            box-shadow: 2px black;
+            background-size: cover;
+            border: 1px solid gray;
+        }
+        
+        h1 {
+            text-shadow: 2px 2px 5px rgb(0, 0, 0);
+        }
+        
+        h2 {
+            text-shadow: 2px 2px 5px rgb(0, 0, 0);
+        }
+        
+        .form {
+            width: 90%;
+            max-width: 500px;
+            margin-right: 10px;
+            font-family: "Bebas Neue", sans-serif;
+        }
+        
+        .form input {
+            display: block;
+            margin: 15px auto;
+            box-shadow: -5px -5px 10px rgb(255 255 255 / 29%), 5px 5px 15px rgba(0, 0, 0, 0.6);
+            width: 100%;
+            background: transparent;
+            backdrop-filter: blur(20px);
+            border: 2px solid rgba(225, 225, 225, .2);
+            height: 45px;
+            padding: 15px;
+            color: rgb(0, 0, 0);
+            border-radius: 10px;
+            font-size: 1rem;
+            transition: all .5s;
+        }
+        
+        input::placeholder {
+            color: rgb(0, 0, 0);
+        }
+        
+        button {
+            display: block;
+            margin: 15px auto;
+            box-shadow: -5px -5px 10px rgb(255 255 255 / 29%), 5px 5px 15px rgba(0, 0, 0, 0.6);
+            width: 20%;
+            background: transparent;
+            backdrop-filter: blur(20px);
+            border: 2px solid rgba(225, 225, 225, .2);
+            height: 45px;
+            padding: 15px;
+            color: rgb(0, 0, 0);
+            border-radius: 10px;
+            font-size: 1rem;
+            transition: all .5s;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="test.html">Home</a> </a>
+        </li>
+        <li><a href="#news">News</a></li>
+        <li><a href="oio1.html">Sign in</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+    <center>
+        <h1 style="color: rgb(222, 222, 220);">Create Your Account</h1>
+        <h2 style="color: rgb(222, 222, 220);">Enter your name</h2>
+        <div class="form">
+            <form action="oio.html" method="post">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="text" name="subject" placeholder="Last name" required>
+                <button>Next</button>
+
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>
